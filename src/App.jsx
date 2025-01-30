@@ -1,13 +1,21 @@
-import "./App.css";
+import './App.css';
 
-import { useState } from "react";
-import TodoList from "./components/TodoList";
+import TodoList from './components/TodoList';
+import { createTheme, ThemeProvider } from '@mui/material';
+
+const theme = createTheme({
+  typography: {
+    fontFamily: ['Cairo', 'sans-serif'].join(','),
+  },
+});
 
 const App = () => {
   return (
-    <div className="app">
-      <TodoList />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="app">
+        <TodoList />
+      </div>
+    </ThemeProvider>
   );
 };
 
