@@ -45,7 +45,7 @@
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.4) !important;
 }
 .todoList {
-  height: 100%;
+  height: 110vh;
 }
 .toggeledButton {
   background-color: #ff9800 !important;
