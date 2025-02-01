@@ -22,11 +22,14 @@
   background-color: rgb(39, 39, 39);
   direction: rtl;
 }
+.title {
+  font-weight: bold !important;
+}
 .iconButton {
   transition: all 0.2s !important;
 }
 .iconButton:hover {
-  background-color: #c5c5c5 !important;
+  background-color: #063d1259 !important;
   box-shadow: 0 7px 7px rgba(0, 0, 0, 0.4);
 }
 .todoCard {
@@ -37,10 +40,14 @@
   padding: 10px 15px 10px 15px !important;
 }
 .todoCard:hover {
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.4) !important;
 }
 .todoList {
   height: 100%;
+}
+.toggeledButton {
+  background-color: #ff9800 !important;
+  color: white !important;
 }
